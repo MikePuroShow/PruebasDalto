@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.flex{
+    position: relative;
+    flex-direction:column-reverse;
+    display:flex;
+    background-color: aqua;
+    padding:10px;
+    border:2px solid black;
+    justify-self:center;
+    
+
+}
+.flex div{
+    position: relative;
+    display:flex;
+    background-color: blueviolet;
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border: 2px solid black;
+}
+.flex  ::selection{
+    background: rgb(58, 226, 43);
+    width: 1100px;
+    height: 1600px;
+}

@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border: 1em solid black;
+}
+    .container div{
+        height: 10em;
+        width: 10em;
+        margin: 20px;
+        border: 1em  solid red;
+        background-color: blue;
+    }
+        .container div:nth-child(2){
+            border: 1em solid blue;
+            background-color: yellow;
+        }

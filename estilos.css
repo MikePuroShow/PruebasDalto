@@ -1,0 +1,49 @@
+*{
+    margin-top:0 px;
+}
+.cajafixed{
+    font-size: 3em;
+    background-color: blueviolet;
+    position:fixed;
+    
+}
+
+.BeforeAfter p::before{
+    content:"Suscribete ";
+}
+
+.BeforeAfter p::after{
+    content: "MikePuroShow";
+}
+
+.PrimerDiv{
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    transition: all 1s;
+    margin:50px;
+}
+.PrimerDiv:active{
+    background: blueviolet;
+    width: 600px;
+    height: 600px;
+}
+.FloatYImagenes{
+    background-color: red;
+    margin:auto; /*MARGEN DEL LADO*/
+    margin-top: 10px; /*Margen de arriba*/
+    border:6px solid black;
+    width: 50%;
+    font-size: 2em;
+   
+    
+}
+.FloatYImagenes p {
+  margin-left: 10px;
+
+}
+.FloatYImagenes img{
+    float:right;
+    width: 300px;
+    margin-left:10px;
+}
